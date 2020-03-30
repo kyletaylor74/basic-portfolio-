@@ -1,7 +1,25 @@
-.center{ border-style: solid;
+.center { border-style: solid;
 border-color: black;
 width: fit-content;
 padding: 20px;}
-body {background-image: url();}
-h1 {background-color:teal}
-div {background-color: #ffffff; padding: 20px; width: 960px} 
+
+body {background-image: url(../images/webb-dark.png);
+    margin-left: 245px;
+}
+
+h1 {
+    background-color:teal
+}
+
+div {
+    background-color: #ffffff;
+     padding: 20px; width: 960px;
+     word-wrap: normal;
+    }
+
+h2 {color: teal}
+
+.float{ float: left; padding-right: 20px;}
+
+p {text-align: center;
+font-size: 15px;}
