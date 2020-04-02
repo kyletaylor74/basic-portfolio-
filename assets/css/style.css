@@ -1,9 +1,9 @@
 .center { border-style: solid;
 border-color: black;
 width: fit-content;
-padding: 20px;}
+padding: 20px; color: white;}
 
-body {background-image: url(../images/webb-dark.png);
+body {background-image: url(../images/webb.png);
     margin-left: 245px;
 }
 
@@ -14,7 +14,7 @@ h1 {
 div {
     background-color: #ffffff;
      padding: 20px; width: 960px;
-     word-wrap: normal;
+     word-wrap: normal; padding: 20px;
     }
 
 h2 {color: teal}
@@ -22,4 +22,20 @@ h2 {color: teal}
 .float{ float: left; padding-right: 20px;}
 
 p {text-align: center;
-font-size: 15px;}
+font-size: 15px; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.cbody{background-image: url(../images/webb-dark.png);}
+
+footer {border-top: 8px solid #4aaaa5; 
+    background-color: #666666; 
+    width: 100%;}
+
+    .cbox{ border-style: inset;}
+    .height{ height: 300px;
+    width: 960px;}
+        .buttom{ background-color: teal;
+        padding: 25px; 
+        margin: 35px;
+    color: white;
+font-family: 'Times New Roman', Times, serif;}
