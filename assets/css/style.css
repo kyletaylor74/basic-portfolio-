@@ -6,9 +6,15 @@ padding: 20px; color: white;}
 body {background-image: url(../images/webb.png);
     margin-left: 245px;
 }
+header {background-color: #ffffff;
+        width: 100%;
+    }
 
 h1 {
-    background-color:teal
+    background-color:teal; 
+    width: fit-content; 
+    color: #ffffff;
+    padding: 20px;
 }
 
 div {
@@ -32,10 +38,34 @@ footer {border-top: 8px solid #4aaaa5;
     width: 100%;}
 
     .cbox{ border-style: inset;}
+
     .height{ height: 300px;
     width: 960px;}
+
         .buttom{ background-color: teal;
         padding: 25px; 
         margin: 35px;
     color: white;
 font-family: 'Times New Roman', Times, serif;}
+
+.pic {width:200px;
+      height: 100px;   }
+
+.pic2{ width: 200px;
+        height: 100px;
+        }    
+
+
+main {display: flex;
+flex-direction: column;
+float: right;
+margin-right: 400px ;
+position: relative;top:-385px}
+
+h3 {color: #ffffff; 
+    background-color: teal;
+width: fit-content;
+position: relative;
+top: 110px;
+left: 20px;
+padding: 5px;} 
